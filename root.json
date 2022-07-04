@@ -1,0 +1,1224 @@
+{
+  "genesis_time": "2022-07-04T06:13:59.892804594Z",
+  "chain_id": "xachain",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519",
+        "sm2"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "member": {
+      "NetworkAdmins": [
+        {
+          "Address": "xchain10c60yxnpd28lf5rs8263g0ttz6kgs2890f00ka",
+          "Power": "100"
+        }
+      ],
+      "Permission": [
+        {
+          "resource": "bank_send",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "bank_multiSend",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_addOrg",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_addSubOrg",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_revokeOrg",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_revokeSubOrg",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_freezeOrg",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin",
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_unfreezeOrg",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin",
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_addNwAdmin",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_revokeNwAdmin",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_addGateway",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_revokeGateway",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_changeOrgAdmin",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin",
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_addAccount",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_revokeAccount",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_editAccountRole",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_freezeAccount",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin",
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_unfreezeAccount",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin",
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_addRole",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_revokeRole",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "orgAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "member_savePermission",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "wasm_instantiate",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "wasm_execute",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            },
+            {
+              "chainIds": [
+                "**"
+              ],
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "**"
+              ],
+              "addresses": [
+                "**"
+              ]
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "wasm_migrate",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "wasm_destroy",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "wasm_update-contract-permission",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "wasm_clear-contract-admin",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "poa_createValidator",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "poa_editValidator",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "params_paramChange",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "gov_vote",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "gov_VoidProposal",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "share_cross_asset",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "cross_relay_cross",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "gateway"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "cross_relay_validators",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "cross_cross_all",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "share_simple",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "share_to_fabric",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "upgrade_upgrade",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "manage_UpdateVoteParameter",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "celerain_MsgCelerain",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "iccp_appchain",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "networkAdmin"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "iccp_cross",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "gateway"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "iccp_update_validator",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        },
+        {
+          "resource": "iccp_kv",
+          "ownerAddress": "",
+          "policy": "1",
+          "expElements": [
+            {
+              "chainIds": null,
+              "orgExps": [
+                "**"
+              ],
+              "roleIds": [
+                "member"
+              ],
+              "addresses": null
+            }
+          ],
+          "status": "1",
+          "contractAdmin": "",
+          "pendingPermission": {
+            "resource": "",
+            "policy": "0",
+            "expElements": null
+          }
+        }
+      ],
+      "GenesisOrgs": [
+        {
+          "OrgId": "org1",
+          "OrgAdminAddress": "xchain1ew7v47z9dydlh4t6fjerxn987n0jpsxlqyqle8",
+          "InitPeerAddress": "xchain107f5mlpld9vjk9783vq7ufucmmuxt3ld8zl4le"
+        }
+      ]
+    },
+    "upgrade": {},
+    "share": {
+      "mint_asset_address": "xchain10c60yxnpd28lf5rs8263g0ttz6kgs2890f00ka",
+      "mint_asset_type": "coin",
+      "mint_asset_amount": "800000000"
+    },
+    "params": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody"
+        },
+        "instantiate_default_permission": "Everybody"
+      }
+    },
+    "celerain": {},
+    "manage": {
+      "effective_threshold": "50",
+      "take_effect_threshold": "50",
+      "counting_votes": false
+    },
+    "cross": {
+      "set_enabled": true,
+      "get_enabled": true
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "sig_verify_cost_sm2": "1000"
+      },
+      "accounts": [
+        {
+          "type": "xchain/Account",
+          "value": {
+            "address": "xchain10c60yxnpd28lf5rs8263g0ttz6kgs2890f00ka",
+            "coins": [
+              {
+                "denom": "stake",
+                "amount": "1000000000000"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "genutil": {
+      "gentxs": []
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "gov": {},
+    "poa": {
+      "params": {
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 0
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": [
+        {
+          "operator_address": "xchain10c60yxnpd28lf5rs8263g0ttz6kgs2890f00ka",
+          "validator_address": "xchainvaloper1d76fuakuxzp4wcum07mf7k8lgue7cwsazynpyj",
+          "consensus_pubkey": "xchainvalconspub1ulx45dfpqtll8sr6lvn9vfkn4c0uuwrmycr3zehwuytq8w3a8kajl4tu8eqpwmvgkus",
+          "jailed": false,
+          "status": 0,
+          "weight": "100",
+          "pending_weight": "0",
+          "description": {
+            "moniker": "",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          }
+        }
+      ],
+      "exported": false
+    }
+  }
+}
